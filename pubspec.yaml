@@ -1,0 +1,29 @@
+name: flutter_task_manager
+description: Um aplicativo Flutter de gerenciamento de tarefas com persistência local e consumo de API.
+publish_to: "none" 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  http: ^0.13.5
+
+
+  sqflite: ^2.2.3
+  path_provider: ^2.0.13
+  path: ^1.8.3
+
+  
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
