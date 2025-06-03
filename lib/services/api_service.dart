@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../models/task.dart';
 
-class ApiService{
-  static const String baseUrl = 'https://<SEU-RENDER-APP>.onrender.com';
+class ApiService {
+  static const String baseUrl = 'https://flutter-task-manager.onrender.com';
 
   Future<List<Task>> fetchTasks() async {
     final response = await http.get(Uri.parse('$baseUrl/tasks'));
@@ -51,4 +51,3 @@ class ApiService{
     }
   }
 }
-
